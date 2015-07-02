@@ -6,7 +6,7 @@ To see how easy it is to get a build running with [Cake.Tin](https://github.com/
 * Run this powershell to get the files required to bootstrap the build:
 	```PowerShell
 
-	"build.ps1","caketin.zip"|%{Invoke-RestMethod -Uri "https://raw.githubusercontent.com/CakeTin/Cake.Tin.Bootstrapper/master/res/scripts/$($_)" -OutFile $_}
+	"build.ps1","caketinbuild.zip"|%{Invoke-RestMethod -Uri "https://raw.githubusercontent.com/CakeTin/Cake.Tin.Bootstrapper/master/res/scripts/$($_)" -OutFile $_}
 	```
 * Run the PS script ./Build.ps1
 
